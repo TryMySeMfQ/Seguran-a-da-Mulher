@@ -5,12 +5,6 @@ import dynamic from 'next/dynamic';
 import { HeroTitle } from './HeroTitle';
 import { HeroDescription } from './HeroDescription';
 import { HeroButtons } from './HeroButtons';
-import { MapLoading } from '../../Map/MapLoading';
-
-const DynamicMap = dynamic(() => import('../../Map/MapComponent').then(mod => mod.MapComponent), {
-  ssr: false,
-  loading: () => <MapLoading />
-});
 
 
 export const HeroSection = () => (
@@ -22,7 +16,6 @@ export const HeroSection = () => (
         <HeroButtons />
       </div>
       <div className="md:w-1/2">
-        <DynamicMap />
       </div>
     </div>
   </section>
