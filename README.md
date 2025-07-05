@@ -68,7 +68,7 @@ Este projeto consome os dados da [API Segurança Feminina](https://github.com/se
 ## 🖼️ Imagens do Projeto
 
 ### 🧭 Página principal:
-![Tela inicial](./public/images/tela-inicial.png)
+![Tela inicial](./public/img/Captura de tela 2025-07-05 135901.png)
 
 ### 🗺️ Mapa com delegacias:
 ![Mapa de delegacias](./public/images/mapa-delegacias.png)
