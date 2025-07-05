@@ -83,7 +83,7 @@ Este projeto consome os dados da [API Segurança Feminina](https://github.com/se
 ## 📍 About (Sobre)
 
 - 🌐 **Site hospedado:** [Veja a Site aqui](https://seguran-a-da-mulher.onrender.com/)
-- 💼 **Apresentação no LinkedIn:** [Veja a publicação aqui](https://www.linkedin.com/posts/seu-usuario_seguran%C3%A7a-tecnologia-mulher-activity-XXXXXXXXXXXXXXX)
+- 💼 **Apresentação no LinkedIn:** [Veja a publicação aqui](https://www.linkedin.com/feed/update/urn:li:activity:7347334832378523648/)
 
 ---
 
