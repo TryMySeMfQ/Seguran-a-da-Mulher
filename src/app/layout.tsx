@@ -2,12 +2,16 @@
 import './styles/globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import { Navbar } from './components/ui/Navbar/Navbar';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Segurança Feminina',
   description: 'Plataforma de segurança para mulheres',
+  icons: {
+   icon: '/img/favicon.png' 
+  },
 };
 
 export default function RootLayout({
@@ -16,8 +20,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="pt-BR" className={inter.className}>
-      <body className="bg-gray-50">{children}</body>
+     <html lang="pt-BR">
+      <body>
+        <Navbar />
+        <main className="pt-20"> {/* Espaço para a navbar fixa */}
+          {children}
+        </main>
+      </body>
     </html>
   );
 }

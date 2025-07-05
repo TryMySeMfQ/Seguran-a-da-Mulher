@@ -5,7 +5,7 @@ import { ButtonHTMLAttributes, forwardRef } from 'react';
 import { buttonVariants } from './Button.styles';
 import { cn } from '../../../lib/utils';
 
-type ButtonVariant = 'primary' | 'outline' | 'ghost' | 'link';
+type ButtonVariant = 'primary' | 'outline' | 'ghost' | 'link' | 'solid';
 type ButtonSize = 'sm' | 'md' | 'lg';
 
 type ButtonProps = {

@@ -1,22 +1,23 @@
-// src/components/sections/Dicas/DicaItem.tsx
-import React from 'react';
+// src/app/components/sections/Dicas/DicaItem.tsx
+'use client';
 
-type Dica = {
-  id: string;
-  titulo: string;
-  conteudo: string;
-};
+import { BaseCard } from '@/app/components/ui/Card/BaseCard';
+import { Dica } from '../../../lib/types';
+import { ShieldCheckIcon } from '@heroicons/react/24/solid';
 
-type Props = {
+interface DicaItemProps {
   dica: Dica;
-};
+}
 
-export const DicaItem = ({ dica }: Props) => {
-  return (
-    <div className="bg-white shadow-md rounded-xl p-4 border border-gray-200">
-      <h3 className="text-lg font-semibold text-purple-700 mb-2">{dica.titulo}</h3>
-      <p className="text-gray-700">{dica.conteudo}</p>
+export const DicaItem = ({ dica }: DicaItemProps) => (
+  <BaseCard className="p-6 hover:shadow-md transition-shadow">
+    <div className="flex gap-4">
+      <ShieldCheckIcon className="h-6 w-6 text-purple-600 flex-shrink-0" />
+      <div>
+        <h3 className="font-bold text-lg text-purple-900">{dica.titulo}</h3>
+        <p className="text-gray-700 mt-2">{dica.descricao}</p>
+      </div>
     </div>
-  );
-};
+  </BaseCard>
+);
 
