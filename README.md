@@ -74,7 +74,7 @@ Este projeto consome os dados da [API Segurança Feminina](https://github.com/se
 ![Mapa de delegacias](./public/imag/img/Captura de tela 2025-07-05 140220.png)
 
 ### 📄 Dicas de segurança:
-![Dicas](./public/images/dicas-seguranca.png)
+![Dicas](./public/imag/Captura de tela 2025-07-05 140243.png)
 
 > *As imagens estão localizadas na pasta `public/images` e devem ser atualizadas conforme o projeto.*
 
