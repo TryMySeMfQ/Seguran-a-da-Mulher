@@ -29,10 +29,6 @@ const nextConfig: NextConfig = {
           filename: 'static/media/[name].[hash][ext]'
         }
       },
-      {
-        test: /\.css$/,
-        use: ['style-loader', 'css-loader']
-      }
     );
     return config;
   }
